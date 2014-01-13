@@ -24,19 +24,28 @@ Release Notes
 * Added jukebox output path
 * Will now scan for all 6 NMT share paths
 * Checks for later version of program online once a week
-                Added more options forUSB drives
-                Added more options for Hard disks (mainly for B110)
-                Corrected minor issues with the output of the cmd file
-                Updated output library file to include prebuf and description elements
-                Other minor checks and notifications added
+* Added more options forUSB drives
+* Added more options for Hard disks (mainly for B110)
+* Corrected minor issues with the output of the cmd file
+* Updated output library file to include prebuf and description elements
+* Other minor checks and notifications added
+
 *Release v0.3*
 * More fixes for library paths and other small improvements
 
 *Release v0.2*
 * Added multiple library options
-                Added INI file to store IP address of NMT
-                Added skip IP address check for NMT
-Release v0.1.3  Fix to error with the save routine
-Release v0.1.2  Fix to local PC path name
-Release v0.1.1  Fix to path names with spaces in them
-Release v0.1    First release.
+* Added INI file to store IP address of NMT
+* Added skip IP address check for NMT
+
+*Release v0.1.3*
+* Fix to error with the save routine
+
+*Release v0.1.2*
+* Fix to local PC path name
+
+*Release v0.1.1*
+* Fix to path names with spaces in them
+
+*Release v0.1*
+* First release.
