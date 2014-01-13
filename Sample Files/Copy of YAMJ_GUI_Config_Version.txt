@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<head>
+  <title>YAMJ GUI Config | Omertron's NMT & PCH Site</title>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="next" href="/pch/node/58" />
+
+<link rel="shortcut icon" href="/pch/misc/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/pch/modules/book/book.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/modules/node/node.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/modules/poll/poll.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/modules/system/defaults.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/modules/system/system.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/modules/system/system-menus.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/modules/user/user.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/sites/all/modules/fckeditor/fckeditor.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/modules/comment/comment.css?q" />
+<link type="text/css" rel="stylesheet" media="all" href="/pch/themes/pushbutton/style.css?q" />
+  <script type="text/javascript" src="/pch/misc/jquery.js?q"></script>
+<script type="text/javascript" src="/pch/misc/drupal.js?q"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/pch/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" } });
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div class="hide"><a href="#content" title="Skip navigation." accesskey="2">Skip navigation</a>.</div>
+
+<table id="primary-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td id="home" width="10%">
+          </td>
+
+    <td id="site-info" width="20%">
+              <div class='site-name'><a href="/pch/" title="Home">Omertron's NMT & PCH Site</a></div>
+                </td>
+    <td class="primary-links" width="70%" align="center" valign="middle">
+      <ul class="links" id="navlist"><li class="menu-138 first"><a href="/pch/node" title="">Home</a></li>
+<li class="menu-186"><a href="/pch/contact" title="Use this contact form to comment on the site. For individual software, please contact the author directly.">Contact</a></li>
+<li class="menu-214"><a href="/pch/software" title="">Software</a></li>
+<li class="menu-216"><a href="/pch/releases" title="">Releases</a></li>
+<li class="menu-357 last"><a href="/pch/YAMJ_Latest" title="">YAMJ</a></li>
+</ul>    </td>
+  </tr>
+</table>
+
+<table id="secondary-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td class="secondary-links" width="75%"  align="center" valign="middle">
+          </td>
+    <td width="25%" align="center" valign="middle">
+          </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div></div></td>
+  </tr>
+</table>
+
+<table id="content" border="0" cellpadding="15" cellspacing="0" width="100%">
+  <tr>
+        <td id="sidebar-left">
+      <div class="block block-user" id="block-user-1">
+  <div class="title"><h3>Navigation</h3></div>
+  <div class="content"><ul class="menu"><li class="leaf last"><a href="/pch/developer" title="">Developer Notes</a></li>
+</ul></div>
+</div><div class="block block-user" id="block-user-0">
+  <div class="title"><h3>User login</h3></div>
+  <div class="content"><form action="/pch/YAMJ_GUI_Config?destination=node%2F57"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/pch/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/pch/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-f19f221b1743413469ffde66de9f7598" value="form-f19f221b1743413469ffde66de9f7598"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div><div class="block block-user" id="block-user-3">
+  <div class="title"><h3>Who's online</h3></div>
+  <div class="content">There are currently <em>1 user</em> and <em>15 guests</em> online.<div class="item-list"><h3>Online users</h3><ul><li class="first last">Admin</li>
+</ul></div></div>
+</div><div class="block block-views" id="block-views-comments_recent-block">
+  <div class="title"><h3>Recent comments</h3></div>
+  <div class="content"><div class="view view-comments-recent view-id-comments_recent view-display-id-block view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/YAMJ_Latest">YAMJ - Latest Development Build</a></span>
+  </div>
+  
+  <div class="views-field-subject">
+                <span class="field-content"><a href="/pch/YAMJ_Latest#comment-34">Thanks man!
+This app in</a></span>
+  </div>
+  
+  <div class="views-field-name">
+                <span class="field-content">Rob (not verified)</span>
+  </div>
+  
+  <div class="views-field-timestamp">
+                <span class="field-content"><em>4 days 7 hours</em> ago</span>
+  </div>
+</li>
+          <li class="views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/YAMJ_Latest">YAMJ - Latest Development Build</a></span>
+  </div>
+  
+  <div class="views-field-subject">
+                <span class="field-content"><a href="/pch/YAMJ_Latest#comment-33">I think could be more usefull</a></span>
+  </div>
+  
+  <div class="views-field-name">
+                <span class="field-content">Rutabaga (not verified)</span>
+  </div>
+  
+  <div class="views-field-timestamp">
+                <span class="field-content"><em>5 days 20 hours</em> ago</span>
+  </div>
+</li>
+          <li class="views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/YAMJ_Latest">YAMJ - Latest Development Build</a></span>
+  </div>
+  
+  <div class="views-field-subject">
+                <span class="field-content"><a href="/pch/YAMJ_Latest#comment-32">Add limit plot characters</a></span>
+  </div>
+  
+  <div class="views-field-name">
+                <span class="field-content">Rutabaga (not verified)</span>
+  </div>
+  
+  <div class="views-field-timestamp">
+                <span class="field-content"><em>5 days 20 hours</em> ago</span>
+  </div>
+</li>
+          <li class="views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/68">Alternate MJ100_details.xsl file for MLMJ</a></span>
+  </div>
+  
+  <div class="views-field-subject">
+                <span class="field-content"><a href="/pch/node/68#comment-31">This functionality has now</a></span>
+  </div>
+  
+  <div class="views-field-name">
+                <span class="field-content">gsbaker</span>
+  </div>
+  
+  <div class="views-field-timestamp">
+                <span class="field-content"><em>5 days 23 hours</em> ago</span>
+  </div>
+</li>
+          <li class="views-row-5 views-row-odd views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/75">Smooth - PCH user interface replacement (index.htm)</a></span>
+  </div>
+  
+  <div class="views-field-subject">
+                <span class="field-content"><a href="/pch/node/75#comment-30">The way I do it is first map</a></span>
+  </div>
+  
+  <div class="views-field-name">
+                <span class="field-content">AlexNC</span>
+  </div>
+  
+  <div class="views-field-timestamp">
+                <span class="field-content"><em>6 days 18 hours</em> ago</span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first"></li>
+<li class="pager-current">1 of 7</li>
+<li class="pager-next last"><a href="/pch/YAMJ_GUI_Config?page=1" class="active">››</a></li>
+</ul></div>  
+  
+      
+<div class="more-link">
+  <a href="/pch/comments/recent">
+    more  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div>    </td>
+    
+    <td valign="top">
+      
+      <div id="main">
+                  <div class="breadcrumb"><a href="/pch/">Home</a></div>          <h1 class="title">YAMJ GUI Config</h1>
+
+          
+        
+        
+        
+      <!-- start main content -->
+      <div class="node">
+        <span class="submitted">Submitted by Omertron on Sun, 30/11/2008 - 11:42</span>
+    <div class="taxonomy"><ul class="links inline"><li class="taxonomy_term_3 first"><a href="/pch/taxonomy/term/3" rel="tag" title="Anything else. Enough of these and a new category will be created">Other</a></li>
+<li class="taxonomy_term_21"><a href="/pch/taxonomy/term/21" rel="tag" title="">YAMJ</a></li>
+<li class="taxonomy_term_47"><a href="/pch/taxonomy/term/47" rel="tag" title="">Config</a></li>
+<li class="taxonomy_term_46 last"><a href="/pch/taxonomy/term/46" rel="tag" title="">Install</a></li>
+</ul></div>
+    <div class="content"><p>This program is designed to make configuring YAMJ a little easier for new users.</p>
+<p>&nbsp;Latest Version: 0.3</p>
+<p>&nbsp;<img src="/pch/system/files/GUI Config v0_2.png" /></p>
+<p>To use it, run the exe file after unpacking it from the zip file.</p>
+<p>Click the &quot;Select Dir&quot; button to tell the program where your video files are located.</p>
+<p>Choose the NMT Path that is relevant for your Video location.</p>
+<p>If you select &quot;Network&nbsp;Path&quot; a pop-up will appear asking for the IP&nbsp;Address of your NMT, it will then locate the shares that you have on your NMT and populate them in the network shares section.</p>
+<p>Once you have done that, select Add and then Save and the program will ask you where you want the files save.&nbsp;WARNING:&nbsp;It will overwrite these files if they exist.<br />
+The files it creates are:</p>
+<ul>
+<li>My_Library.xml</li>
+<li>My_YAMJ.cmd</li>
+</ul>
+<p>When you are ready to run YAMJ, simply browse to the folder and double click the &quot;My_YAMJ.cmd&quot; file.</p>
+<p>Thanks to Dizingof for his first YAMJ GUI&nbsp;and Legion455 for his scraper of the NMT share code.</p>
+<p>Please post any comments, questions, reports or requests on this thread <a href="http://www.networkedmediatank.com/showthread.php?tid=11819" target="_blank">*HERE*</a></p>
+  <div id="book-navigation-57" class="book-navigation">
+    <ul class="menu"><li class="leaf last"><a href="/pch/node/58">GUI Config v0.3</a></li>
+</ul>
+        <div class="page-links clear-block">
+                          <a href="/pch/node/58" class="page-next" title="Go to next page">GUI Config v0.3 ›</a>
+          </div>
+    
+  </div>
+</div>
+        <div class="links">&raquo; <ul class="links inline"><li class="comment_add first last"><a href="/pch/comment/reply/57#comment-form" title="Share your thoughts and opinions related to this posting.">Add new comment</a></li>
+</ul></div>
+    </div>
+<div id="comments">
+  <a id="comment-17"></a>
+<div class="comment-folded">
+  <span class="subject"><a href="/pch/node/57/17#comment-17">linux?</a> </span><span class="credit">by Anonymous (not verified)</span>
+</div>
+<div class="indented"><a id="comment-18"></a>
+<div class="comment-folded">
+  <span class="subject"><a href="/pch/node/57/18#comment-18">Sorry, no linux version  As</a> </span><span class="credit">by Omertron</span>
+</div>
+</div><a id="comment-15"></a>
+<div class="comment-folded">
+  <span class="subject"><a href="/pch/node/57/15#comment-15">where can i download the file</a> </span><span class="credit">by Anonymous (not verified)</span>
+</div>
+<a id="comment-12"></a>
+<div class="comment-folded">
+  <span class="subject"><a href="/pch/node/57/12#comment-12">I don&#039;t see the difference</a> </span><span class="credit">by Anonymous (not verified)</span>
+</div>
+<div class="indented"><a id="comment-13"></a>
+<div class="comment-folded">
+  <span class="subject"><a href="/pch/node/57/13#comment-13">The main difference with the</a> </span><span class="credit">by Omertron</span>
+</div>
+</div><a id="comment-11"></a>
+<div class="comment-folded">
+  <span class="subject"><a href="/pch/node/57/11#comment-11">Nice, but</a> </span><span class="credit">by Anonymous (not verified)</span>
+</div>
+<a id="comment-10"></a>
+<div class="comment-folded">
+  <span class="subject"><a href="/pch/node/57/10#comment-10">Cool, but where is the file</a> </span><span class="credit">by ZeeDD (not verified)</span>
+</div>
+</div>
+            <!-- end main content -->
+
+      </div><!-- main -->
+    </td>
+        <td id="sidebar-right">
+      <div class="block block-search" id="block-search-0">
+  <div class="title"><h3>Search</h3></div>
+  <div class="content"><form action="/pch/YAMJ_GUI_Config/"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="container-inline">
+  <div class="form-item" id="edit-search-block-form-1-wrapper">
+ <label for="edit-search-block-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-a1a3a4a1466f2c9ac1b4199f98539980" value="form-a1a3a4a1466f2c9ac1b4199f98539980"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+</div>
+
+</div></form>
+</div>
+</div><div class="block block-views" id="block-views-latest_software-block_1">
+  <div class="title"><h3>Latest Software</h3></div>
+  <div class="content"><div class="view view-latest-software view-id-latest_software view-display-id-block_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/YAMJ_GUI_Config" class="active">YAMJ GUI Config</a></span>
+  </div>
+</li>
+          <li class="views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/50">Kroozbox media player for NMT (version 1.8)</a></span>
+  </div>
+</li>
+          <li class="views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/75">Smooth - PCH user interface replacement (index.htm)</a></span>
+  </div>
+</li>
+          <li class="views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/59">Music Jukebox</a></span>
+  </div>
+</li>
+          <li class="views-row-5 views-row-odd views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/69">Kendo&#039;s YAMJ Skin</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first"></li>
+<li class="pager-current">1 of 3</li>
+<li class="pager-next last"><a href="/pch/YAMJ_GUI_Config?page=1" class="active">››</a></li>
+</ul></div>  
+  
+      
+<div class="more-link">
+  <a href="/pch/software">
+    more  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div><div class="block block-views" id="block-views-latest_releases-block_1">
+  <div class="title"><h3>Latest Releases</h3></div>
+  <div class="content"><div class="view view-latest-releases view-id-latest_releases view-display-id-block_1 view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/82">Kroozbox - eXtreme Movie Manager template/plugin 1.0</a></span>
+  </div>
+</li>
+          <li class="views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/77">Kroozbox version 1.8</a></span>
+  </div>
+</li>
+          <li class="views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/YAMJ_Latest">YAMJ - Latest Development Build</a></span>
+  </div>
+</li>
+          <li class="views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/79">Music Jukebox Release 5.1</a></span>
+  </div>
+</li>
+          <li class="views-row-5 views-row-odd views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pch/node/38">RobinsjExcal 2.5</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first"></li>
+<li class="pager-current">1 of 4</li>
+<li class="pager-next last"><a href="/pch/YAMJ_GUI_Config?page=1" class="active">››</a></li>
+</ul></div>  
+  
+      
+<div class="more-link">
+  <a href="/pch/releases">
+    more  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div>    </td>
+      </tr>
+</table>
+
+<table id="footer-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" valign="middle">
+          <ul class="links primary-links"><li class="menu-138 first"><a href="/pch/node" title="">Home</a></li>
+<li class="menu-186"><a href="/pch/contact" title="Use this contact form to comment on the site. For individual software, please contact the author directly.">Contact</a></li>
+<li class="menu-214"><a href="/pch/software" title="">Software</a></li>
+<li class="menu-216"><a href="/pch/releases" title="">Releases</a></li>
+<li class="menu-357 last"><a href="/pch/YAMJ_Latest" title="">YAMJ</a></li>
+</ul>                      </td>
+  </tr>
+</table>
+
+<script type="text/javascript" src="/pch/sites/all/modules/google_analytics/googleanalytics.js?q"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var pageTracker = _gat._getTracker("UA-3713800-2");pageTracker._trackPageview();
+//--><!]]>
+</script>
+</body>
+</html>

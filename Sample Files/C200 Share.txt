@@ -1,0 +1,125 @@
+<head>
+<title>Setup</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<head>
+<meta SYABAS-FULLSCREEN>
+<meta SYABAS-BACKGROUND="file:///opt/sybhttpd/localhost.images/hd/bg.jpg">
+<style type="type/css">.menu {font-size:22px;color:user7;font-weight:normal;} 
+ 		.menu_h {font-size:22px;color:user4;font-weight:normal;}
+ 		.txt    {font-size:20px;color:user1;font-weight:normal;}
+ 		.msg    {font-size:18px;color:user7;font-weight:normal;}
+ 		.server {font-size:20px;color:user6;font-weight:normal;} 
+ 		.title {font-size:24px;color:user7;font-weight:normal;}
+	</style></head></head>
+<body file=l focuscolor="user5" bgcolor="#398EC4" onloadset="link" alink="user2" focustext="user3">
+<form action="http://127.0.0.1:8883/setups.cgi">
+<input type="hidden" name="hiDe" value="5">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr height="620">
+<td width="280" valign="middle" align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+
+<tr height="400">
+<td width="280" valign="bottom" align="right">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr height="5">
+<td width="250"></td>
+<td width="16"></td></tr>
+<tr height="35">
+<td valign="middle" align="right"><a name="left_menu_0" href="javascript:location.replace('http://127.0.0.1:8883/start.cgi')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu" onkeyupset="#self" >&nbsp;&nbsp;&nbsp;Home&nbsp;</a></td>
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr>
+<tr height="35">
+<td valign="middle" align="right"><a name="left_menu_1" href="javascript:location.replace('preferences.htm')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu" >&nbsp;&nbsp;&nbsp;Preferences&nbsp;</a></td>
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr>
+<tr height="35">
+
+<td valign="middle" align="right"><a name="left_menu_2" href="javascript:location.replace('display.html')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu" >&nbsp;&nbsp;&nbsp;Audio / Video&nbsp;</a></td>
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr>
+<tr height="35">
+<td valign="middle" align="right"><a name="left_menu_3" href="javascript:location.replace('network.html')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu" >&nbsp;&nbsp;&nbsp;Network&nbsp;</a></td>
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr>
+<tr height="35">
+<td valign="middle" align="right"><a name="left_menu_4" href="javascript:location.replace('network_share.html')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu_h" >&nbsp;&nbsp;&nbsp;Network Share&nbsp;</a></td>
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr>
+<tr height="35">
+<td valign="middle" align="right"><a name="left_menu_5" href="javascript:location.replace('http://127.0.0.1:8883/setups.cgi?hiDe=7')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu" >&nbsp;&nbsp;&nbsp;NMT Applications&nbsp;</a></td>
+
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr>
+<tr height="35">
+<td valign="middle" align="right"><a name="left_menu_6" href="javascript:location.replace('dvd.html')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu" >&nbsp;&nbsp;&nbsp;DVD / Audio CD&nbsp;</a></td>
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr>
+<tr height="35">
+<td valign="middle" align="right"><a name="left_menu_7" href="javascript:location.replace('maintenance.html')" onkeyrightset="browse" onkeyleftset="#self" style="width:202" class="menu" onkeydownset="#self" >&nbsp;&nbsp;&nbsp;Maintenance&nbsp;</a></td>
+<td valign="middle" align="left">
+<img src="file:///opt/sybhttpd/localhost.images/hd/menu.png" width="16" height="12"></td></tr></table></td></tr>
+<tr height="100">
+<td align="right" valign="bottom">
+<img src="file:///opt/sybhttpd/localhost.images/hd/side_setup.png" width="105" height="80"></td></tr>
+<tr>
+<td height="20" align="right" valign="top" class="server">// setup </td></tr>
+
+<tr>
+<td align="right">
+<img src="file:///opt/sybhttpd/localhost.images/hd/line_side.png" width="86" height="29"></td></tr></table></td>
+<td width="70" valign="middle" align="center">
+<a name="link" href="#" onfocusset="left_menu_4">
+<img src="file:///opt/sybhttpd/localhost.images/hd/divider.png" height="620" width="70"></a></td>
+<td width="740" valign="middle" align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" valign="middle" width="730" height="580">
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td width="25" height=10></td>
+<td width="500"></td>
+<td width="25"></td></tr>
+<tr>
+<td></td>
+
+<td colspan=2 class="txt">Add share</td></tr>
+<tr>
+<td colspan=3 height=10></td></tr>
+<tr>
+<td></td>
+<td class="txt">
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td colspan=2 height=10></td></tr>
+<tr>
+<td>
+<input type="submit" name="browse" value="browse" onkeyrightset="add" onkeydownset="sharename" onkeyupset="#self" enabled__></td>
+<td width=8></td>
+<td>
+<input type="submit" name="add" value="add" onkeyleftset="browse" onkeyrightset="#self" onkeydownset="sharename" onkeyupset="#self" enabled__></td></tr></table></td>
+<td></td></tr>
+
+<tr>
+<td></td>
+<td align="center" height="40">
+<img src="file:///opt/sybhttpd/localhost.images/sd/fadeline.png" height=2 width="500"></td>
+<td></td></tr>
+<tr>
+<td></td>
+<td height="40" class="txt">Edit share</td>
+<td></td></tr>
+<tr>
+<td></td>
+<td height="40" class="msg">Please select ONE of the following to edit.</td>
+<td></td></tr>
+<tr>
+<td></td>
+
+<td width="25" height=10>
+<select name="Emenu" size="9">
+<option value="1">shares nfs</option>
+<option value="2">my videos</option>
+<option value="3">videos nfs</option>
+<option disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option></select></td>
+<td></td></tr></table></td></tr></table></td></tr></table></form></body>
